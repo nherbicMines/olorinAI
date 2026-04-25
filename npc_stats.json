@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Yedora Gravekeeper",
+    "statblock": {
+      "level": "7",
+      "role": "Controller",
+      "strength": "10",
+      "dexterity": "14",
+      "constitution": "12",
+      "intelligence": "16",
+      "wisdom": "18",
+      "charisma": "15"
+    }
+  },
+  {
+    "name": "Philus Draxen",
+    "statblock": {
+      "level": "8",
+      "role": "Support / Controller",
+      "strength": "10",
+      "dexterity": "14",
+      "constitution": "12",
+      "intelligence": "16",
+      "wisdom": "13",
+      "charisma": "18"
+    }
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Yedora Gravekeeper",
+    "gender": "female",
+    "species": "dryad",
+    "occupation": "Professor of Death, Witherbloom College, Strixhaven University",
+    "location": "Strixhaven University - Witherbloom College",
+    "personality": "Calm and enigmatic, Yedora maintains a composed demeanor with a hint of melancholy. She exudes a quiet authority and seems deeply connected to the cycles of life and death.",
+    "bonds": "Loyal to the Witherbloom College and the natural balance of life and death, but conflicted due to her secret allegiance.",
+    "secrets": "She is secretly a member of the Oryx blood cult and subtly misleads the players investigating it, guiding them away from the cult\u2019s true activities.",
+    "involvedPlots": [
+      "The Oryx blood cult conspiracy at Strixhaven University"
+    ]
+  },
+  {
+    "name": "Philus Draxen",
+    "gender": "male",
+    "species": "human",
+    "occupation": "Professor of Rhetoric and Debate, Silverquill College, Strixhaven University",
+    "location": "Strixhaven University - Silverquill College",
+    "personality": "Witty, charismatic, and sharp-tongued, Philus thrives in intellectual sparring and enjoys mentoring students to refine their argumentation skills. Beneath his confident exterior lies a deeply loyal and thoughtful partner.",
+    "bonds": "Deeply devoted to Silverquill College and its values, he shares a romantic relationship with Yedora Gravekeeper, balancing logic and emotion between them.",
+    "secrets": "Though outwardly skeptical of cult activities, he is plagued by doubts about his own judgment, fearing his romance with Yedora might blind him to her true allegiances.",
+    "involvedPlots": [
+      "The Oryx blood cult conspiracy at Strixhaven University"
+    ]
+  }
+]
