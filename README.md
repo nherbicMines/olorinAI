@@ -54,7 +54,7 @@ Gossip:
 ==================================================
 ```
 
-##Roadmap
+## Roadmap
 - Hard define what resources Olorin may pull from (official publicly available WotC content, Forgotten Realms wiki, homebrew content on D&DBeyond with 100+ votes, etc.)
 - NPC search system (e.g. "Find everyone invovled in the Oriq plot" or "Find all dwarves from Gimsteinnar")
 - Graphic showing NPCs by region/location
