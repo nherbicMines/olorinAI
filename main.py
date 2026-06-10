@@ -95,6 +95,46 @@ def append_npc(npc_data):
     npcs.append(npc_data)
     save_json("npcs.json", npcs)
 
+def display_npc(npc_data):
+    npc = npc_data["npc"]
+    stats = npc_data["statblock"]
+    gossip = npc_data.get("gossip", [])
+
+    print("\n" + "=" * 50)
+    print(f"Name: {npc['name']}")
+    print("=" * 50)
+
+    print(f"Species: {npc['species']}")
+    print(f"Gender: {npc['gender']}")
+    print(f"Occupation: {npc['occupation']}")
+    print(f"Location: {npc['location']}")
+
+    print("\nPersonality:")
+    print(npc["personality"])
+
+    print("\nBonds:")
+    print(npc["bonds"])
+
+    print("\nSecrets:")
+    print(npc["secrets"])
+
+    print("\nInvolved Plots:")
+    if (not "involedPlots" in npc or len(npc["involvedPlots"] == 0)):
+        print("None")
+    else:
+        for plot in npc.get("involvedPlots", []):
+            print(f" - {plot}")
+
+    print("\nStatblock:")
+    for k, v in stats.items():
+        print(f" {k.capitalize()}: {v}")
+
+    print("\nGossip:")
+    for line in gossip:
+        print(f" - {line}")
+
+    print("=" * 50 + "\n")
+
 def generate_npc(user_input, world_lore, npcs, mode):
     relevant_npcs = retrieve_relevant_npcs(user_input, npcs)
 
@@ -154,7 +194,7 @@ if __name__ == "__main__":
     parsed = json.loads(result)
 
     print("\nGenerated NPC:\n")
-    print(json.dumps(parsed, indent=2))
+    print(display_npc(parsed))
 
     save = input("\nSave this NPC? (y/n): ")
 

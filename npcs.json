@@ -24,5 +24,27 @@
     "involvedPlots": [
       "The Oryx blood cult conspiracy at Strixhaven University"
     ]
+  },
+  {
+    "name": "Maribel Tangrin",
+    "gender": "female",
+    "species": "halfling",
+    "occupation": "Owner of Tangrin's Trinkets and Arcana",
+    "location": "City of Althoria, near Strixhaven University",
+    "personality": "Cheerful and shrewd, Maribel has a knack for reading people and uncovering hidden desires. She enjoys bartering and telling small tales, always with a twinkle in her eye.",
+    "bonds": "Has a long-standing friendly rivalry with several other merchants in Althoria; secretly seeks rare magical artifacts for her personal collection.",
+    "secrets": "Maribel occasionally deals in forbidden magical items and smuggles minor contraband to discreet clients, including some connected to the Oryx cult.",
+    "involvedPlots": []
+  },
+  {
+    "name": "Brynn Hayward",
+    "gender": "female",
+    "species": "human",
+    "occupation": "Farmer",
+    "location": "Hallowbrook Village",
+    "personality": "Hardworking and practical, Brynn is friendly but reserved, always willing to lend a hand during harvest season. She values tradition and community.",
+    "bonds": "Deeply connected to her family and the land she farms, Brynn takes pride in sustaining her village through tough seasons.",
+    "secrets": "Keeps a small herb garden with rare plants believed to have minor healing properties, a skill learned from her grandmother.",
+    "involvedPlots": []
   }
 ]

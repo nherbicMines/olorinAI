@@ -24,5 +24,31 @@
       "wisdom": "13",
       "charisma": "18"
     }
+  },
+  {
+    "name": "Maribel Tangrin",
+    "statblock": {
+      "level": "3",
+      "role": "Merchant/Informant",
+      "strength": "8",
+      "dexterity": "14",
+      "constitution": "10",
+      "intelligence": "13",
+      "wisdom": "12",
+      "charisma": "16"
+    }
+  },
+  {
+    "name": "Brynn Hayward",
+    "statblock": {
+      "level": "1",
+      "role": "Commoner",
+      "strength": "12",
+      "dexterity": "11",
+      "constitution": "13",
+      "intelligence": "10",
+      "wisdom": "12",
+      "charisma": "10"
+    }
   }
 ]
